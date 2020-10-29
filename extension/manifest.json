@@ -1,0 +1,16 @@
+{
+  "name": "NTU GPA Calculator",
+  "description": "Calculate your GPA from the ePortofolio page",
+  "version": "0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "*://reg227.aca.ntu.edu.tw/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://reg227.aca.ntu.edu.tw/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
