@@ -3,6 +3,10 @@
   "description": "Calculate your GPA from the ePortofolio page",
   "version": "0.1",
   "manifest_version": 2,
+  "icons": {
+    "32": "icons/icon32.png",
+    "128": "icons/icon128.png"
+  },
   "browser_action": {
     "default_popup": "popup.html"
   },
